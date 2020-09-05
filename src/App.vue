@@ -2,9 +2,12 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/rows">Custom Rows</router-link> |
+      <router-link to="/both">Custom Rows + Custom Searchable</router-link>
     </div>
-    <router-view/>
+    <div id="page-content" class="container">
+      <router-view />
+    </div>
   </div>
 </template>
 
